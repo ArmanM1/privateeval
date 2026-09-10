@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.local
+node_modules/
+.next/
+.vinext/
+dist/
+.wrangler/
+.codex-dev.*.log
+artifacts/runs/*/
+!artifacts/runs/.gitkeep
+artifacts/human-review/review_key.json
