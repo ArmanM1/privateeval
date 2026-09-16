@@ -1,0 +1,91 @@
+{
+  "status": "not_ready",
+  "run_id": "privateeval-billsum-cpu-v1",
+  "checks_passed": 11,
+  "checks_total": 13,
+  "checks": [
+    {
+      "name": "Frozen data checksums and leakage guard",
+      "passed": true,
+      "required": true,
+      "evidence": "2 files verified; overlap=[]"
+    },
+    {
+      "name": "Transparent baseline plus two open configurations",
+      "passed": true,
+      "required": true,
+      "evidence": "extractive=1, open_configs=2"
+    },
+    {
+      "name": "Quality, grounding, and confidence intervals",
+      "passed": true,
+      "required": true,
+      "evidence": "aggregate_models=3; semantic=sentence-transformers/all-MiniLM-L6-v2 cosine"
+    },
+    {
+      "name": "Isolated efficiency telemetry",
+      "passed": true,
+      "required": true,
+      "evidence": "fresh process, warm-up, repeated latency, RSS, model bytes, throughput"
+    },
+    {
+      "name": "Registered robustness slices",
+      "passed": true,
+      "required": true,
+      "evidence": "perturbations=['formatting', 'length_shift', 'typos']"
+    },
+    {
+      "name": "Synthetic privacy canaries",
+      "passed": true,
+      "required": true,
+      "evidence": "model_rows=3; real_personal_data=false"
+    },
+    {
+      "name": "Paired statistics, effect size, and slices",
+      "passed": true,
+      "required": true,
+      "evidence": "paired_n=8; dimensions=['length', 'topic']"
+    },
+    {
+      "name": "Manual grounding spot audit",
+      "passed": true,
+      "required": true,
+      "evidence": "audited_claims=6; preference_study=false"
+    },
+    {
+      "name": "Blinded human preference with uncertainty",
+      "passed": false,
+      "required": true,
+      "evidence": "completed=0/12; comparisons=0; errors=0"
+    },
+    {
+      "name": "Interactive demo screenshots, video, and browser verification",
+      "passed": true,
+      "required": true,
+      "evidence": "screenshots=7; video=67.52s 1280x720; run_match=True"
+    },
+    {
+      "name": "Documentation, model card, one-command reproduction, and CI",
+      "passed": true,
+      "required": true,
+      "evidence": "present=8/8"
+    },
+    {
+      "name": "Independent reproduction and claim inspection",
+      "passed": false,
+      "required": true,
+      "evidence": "status=pending; reviewer=none"
+    },
+    {
+      "name": "Versioned public repository",
+      "passed": true,
+      "required": true,
+      "evidence": "visibility=public; url=https://github.com/ArmanM1/privateeval"
+    }
+  ],
+  "blockers": [
+    "Blinded human preference with uncertainty",
+    "Independent reproduction and claim inspection"
+  ],
+  "claim_policy": "Resume or portfolio claims are allowed only when status is ready."
+}
