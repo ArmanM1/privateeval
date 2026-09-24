@@ -1,0 +1,4 @@
+"""PrivateEval: reproducible small-model summarization evaluation."""
+
+__version__ = "0.1.0"
+
