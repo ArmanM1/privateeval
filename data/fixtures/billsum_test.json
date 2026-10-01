@@ -1,0 +1,74 @@
+{
+  "dataset": "FiscalNote/billsum",
+  "dataset_revision": "3d85104",
+  "split": "test",
+  "license": "CC0-1.0",
+  "derivation": "Abridged public-domain source text and reference summaries from fixed test rows; whitespace normalized only.",
+  "examples": [
+    {
+      "id": "billsum-test-0000",
+      "source_row": 0,
+      "topic": "environment",
+      "title": "Water Resources Development Act technical corrections",
+      "source": "SECTION 1. ENVIRONMENTAL INFRASTRUCTURE. Jackson County, Mississippi. Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. Manchester, New Hampshire. The authorization is increased from $10,000,000 to $20,000,000. Atlanta, Georgia. Section 219 is amended by striking a $25,000,000 limitation. Paterson, Passaic County, and Passaic Valley, New Jersey. Section 219 is amended by striking a $20,000,000 limitation. Elizabeth and North Hudson, New Jersey. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named. SECTION 2. UPPER MISSISSIPPI RIVER ENVIRONMENTAL MANAGEMENT PROGRAM. A reference is corrected from paragraph (1)(A)(i) to paragraph (1)(B). SECTION 3. DELAWARE RIVER, PENNSYLVANIA AND DELAWARE. The Secretary of the Army may carry out navigation project modifications if technically sound, environmentally acceptable, and economically justified.",
+      "reference": "Makes technical corrections to federal water-resources law. It adjusts environmental-infrastructure authorizations for projects in Mississippi, New Hampshire, Georgia, and New Jersey, corrects a reference in the Upper Mississippi River program, and permits technically sound, environmentally acceptable, and economically justified Delaware River navigation modifications."
+    },
+    {
+      "id": "billsum-test-0001",
+      "source_row": 1,
+      "topic": "agriculture",
+      "title": "Federal Forage Fee Act of 1993",
+      "source": "The Act may be cited as the Federal Forage Fee Act of 1993. Congress finds that public lands should continue producing water and soil conservation benefits, livestock and wildlife forage, recreation, and other multiple uses. It states that cooperative agreements and flexible management can stabilize and improve rangelands, and that grazing fees should be reasonable, equitable, and represent the fair value of forage. It also recognizes that mixed private and public ownership in the West creates interdependence for forage, water, habitat, and rural jobs. Unless contrary to the statute, grazing operations on federal lands are subject to applicable federal, state, and local environmental and land-use requirements, including the Clean Air Act, Endangered Species Act, and other listed laws. The Act establishes a formula for forage fees on lands administered by the Departments of Agriculture and the Interior.",
+      "reference": "Subjects grazing on federal land to applicable environmental and land-use requirements and establishes a formula for forage fees on land administered by the Agriculture and Interior Departments. The findings emphasize multiple-use benefits, rangeland stewardship, fair forage value, and the interdependence of public and private western lands."
+    },
+    {
+      "id": "billsum-test-0002",
+      "source_row": 2,
+      "topic": "veterans",
+      "title": "Merchant Marine of World War II Congressional Gold Medal Act",
+      "source": "The Act may be cited as the Merchant Marine of World War II Congressional Gold Medal Act. Congress finds that the United States Merchant Marine linked domestic production with fighting forces overseas by transporting equipment, fuel, food, commodities, raw materials, military personnel, and civilians. Merchant mariners operated despite exposure to enemy aircraft, submarines, and mines and suffered a higher per-capita casualty rate than any military branch during the war. The Speaker of the House and the President pro tempore of the Senate shall arrange for the award, on behalf of Congress, of a single gold medal to the United States Merchant Marine of World War II in recognition of its dedicated and vital service. After the award, the medal shall be given to the American Merchant Marine Museum for display and research.",
+      "reference": "Directs congressional leaders to award a single Congressional Gold Medal to the U.S. Merchant Marine of World War II for its vital wartime service and sacrifice. After the award, the medal is to be held by the American Merchant Marine Museum for display and research."
+    },
+    {
+      "id": "billsum-test-0003",
+      "source_row": 3,
+      "topic": "taxation",
+      "title": "Small Business Tax Modernization Act of 2004",
+      "source": "The Act may be cited as the Small Business Tax Modernization Act of 2004. It amends the Internal Revenue Code so that no new S corporation election may be made for a taxable year beginning after December 31, 2004. Existing S corporation elections cease to be effective for taxable years beginning after December 31, 2014 and are then treated as partnership elections. Certain privately held domestic corporations may elect to be taxed as partnerships instead of using subchapter S. The bill sets rules for former S corporations that elect partnership status, including treatment of assets, liabilities, shareholders, and transition items. It also excludes partnership income attributable to capital from net earnings from self-employment, subject to the statutory rules.",
+      "reference": "Overhauls pass-through taxation by ending new S corporation elections after 2004 and existing S status after 2014, while allowing eligible privately held corporations to elect partnership treatment. It supplies transition rules and excludes partnership income attributable to capital from self-employment earnings."
+    },
+    {
+      "id": "billsum-test-0004",
+      "source_row": 4,
+      "topic": "finance",
+      "title": "Fair Access to Investment Research Act of 2016",
+      "source": "The Act may be cited as the Fair Access to Investment Research Act of 2016. Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. The report is treated as satisfying specified federal securities and self-regulatory organization conditions. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously offered fund report initiates or resumes coverage, and it must address appropriate disclosure and content standards for investor protection and capital formation.",
+      "reference": "Directs the SEC to create a safe harbor for qualifying investment-fund research distributed by brokers or dealers. Covered reports would not be treated as securities offers merely because the broker participates in an offering, subject to revised disclosure and investor-protection rules adopted on statutory deadlines."
+    },
+    {
+      "id": "billsum-test-0005",
+      "source_row": 5,
+      "topic": "healthcare",
+      "title": "Prescription Drug Monitoring Act of 2016",
+      "source": "The Act may be cited as the Prescription Drug Monitoring Act of 2016. A covered state is one receiving federal prescription drug monitoring program funding. Beginning two years after enactment, each covered state must require prescribing practitioners, or authorized designees, to consult the state's prescription drug monitoring program before starting treatment with a controlled-substance prescription and at defined intervals afterward. Dispensers must report covered prescription information within the required time. The Department of Justice or Department of Health and Human Services may withhold grant funding from a state that fails to comply. A state must also share its monitoring-program data with other states through a data-sharing hub established by the Department of Justice, subject to privacy and security requirements.",
+      "reference": "Requires federally funded states to make prescribers consult prescription drug monitoring data, require timely dispenser reporting, and share monitoring data with other states through a Justice Department hub. DOJ or HHS may withhold grant funds for noncompliance, and sharing remains subject to privacy and security requirements."
+    },
+    {
+      "id": "billsum-test-0006",
+      "source_row": 6,
+      "topic": "energy",
+      "title": "Strategic Gasoline and Fuel Reserve Act of 2005",
+      "source": "The Act may be cited as the Strategic Gasoline and Fuel Reserve Act of 2005. It directs the Secretary of Energy to establish, maintain, and operate a reserve separate from the Strategic Petroleum Reserve. The reserve may contain no more than 40,000,000 barrels of regular unleaded gasoline and 7,500,000 barrels of jet fuel. Within one year, the Secretary must choose at least three and no more than five regionally strategic sites; the sites must be operational within two years. The Secretary of Homeland Security must concur in physical and operational security. Fuel may be released only when the President finds a severe supply disruption or when a governor requests a release with specified findings. The bill establishes a revolving Strategic Gasoline and Fuel Reserve Fund in the Treasury.",
+      "reference": "Directs the Energy Secretary to create a gasoline and jet-fuel reserve at three to five regional sites, separate from the Strategic Petroleum Reserve. It caps capacity, requires Homeland Security concurrence, limits releases to severe disruptions or qualifying gubernatorial requests, and creates a revolving Treasury fund."
+    },
+    {
+      "id": "billsum-test-0007",
+      "source_row": 7,
+      "topic": "public_safety",
+      "title": "Public Safety Officer Benefits Enhancement Act",
+      "source": "The Act may be cited as the Special Agent Scott K. Carey Public Safety Officer Benefits Enhancement Act. It extends educational assistance to public safety officers who become permanently and totally disabled as a direct result of a catastrophic line-of-duty injury, as well as to their eligible spouses and children. It allows retroactive eligibility when the officer died in the line of duty or became permanently and totally disabled on or after January 1, 1978. The Secretary of Education may award scholarships to disabled officers and eligible family members and may enter agreements with educational institutions. The Act also establishes pension payments for certain survivors of deceased public safety officers and changes federal personnel law so qualifying widows or widowers of federal employees killed on the job may continue receiving monthly compensation under specified conditions.",
+      "reference": "Expands education and survivor benefits for public safety officers disabled or killed in the line of duty and for eligible spouses and children. It authorizes scholarships, retroactive eligibility in specified cases dating to 1978, survivor pensions, and continued compensation for certain widows or widowers of federal employees killed at work."
+    }
+  ]
+}
+

@@ -1,0 +1,8 @@
+check_id,record_id,model_id,claim_text,judgment,reviewer_id,notes
+spot-01,clean::billsum-test-0000,flan-t5-small-fp32,"Section 219 increases the Jackson County authorization from $10 million to $20 million.",supported,agent-audit-01,"Directly stated in the bounded source."
+spot-02,clean::billsum-test-0002,flan-t5-small-fp32,"The Merchant Marine has awarded a gold medal to itself.",unsupported,agent-audit-01,"Source says congressional leaders shall arrange an award; lexical proxy scored this too highly."
+spot-03,clean::billsum-test-0003,flan-t5-small-fp32,"The Act of 2000 repeatedly amends the Internal Revenue Code.",unsupported,agent-audit-01,"Wrong year and degenerate repetition; correctly receives low proxy support."
+spot-04,clean::billsum-test-0006,flan-t5-small-fp32,"The Act creates a revolving reserve fund in the Treasury.",supported,agent-audit-01,"Directly stated in the bounded source."
+spot-05,clean::billsum-test-0007,flan-t5-small-fp32,"The Act establishes a retirement fund for disabled officers.",unsupported,agent-audit-01,"Source describes education assistance, survivor pensions, and compensation—not a retirement fund."
+spot-06,clean::billsum-test-0001,flan-t5-small-int8,"The bill concerns Species Act and FERC regulations.",unsupported,agent-audit-01,"FERC is invented; output demonstrates severe dynamic-quantization degradation."
+

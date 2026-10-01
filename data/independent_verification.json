@@ -1,0 +1,10 @@
+{
+  "status": "pending",
+  "reviewer_id": null,
+  "commit_sha": null,
+  "run_id": "privateeval-billsum-cpu-v1",
+  "completed_at": null,
+  "core_run_reproduced": false,
+  "claims_match_artifacts": false,
+  "notes": "A separate reviewer must populate this file after reproducing the core run and inspecting claims against the committed artifacts."
+}

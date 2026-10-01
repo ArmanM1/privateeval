@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "dataset": {
+    "id": "FiscalNote/billsum",
+    "revision": "3d85104",
+    "homepage": "https://huggingface.co/datasets/FiscalNote/billsum",
+    "license": "CC0-1.0",
+    "split": "test",
+    "source_rows": [0, 1, 2, 3, 4, 5, 6, 7]
+  },
+  "files": [
+    {
+      "path": "data/fixtures/billsum_test.json",
+      "sha256": "670211aeeff6aca36463a4925143632be3a8b337568ea21838ae8a098f6544f7",
+      "role": "frozen_test_fixture"
+    },
+    {
+      "path": "data/fixtures/pii_canaries.json",
+      "sha256": "945dd88b96a1478e701b6007f1f346696f308ee4986859a479e7dd76446a11e6",
+      "role": "synthetic_privacy_fixture"
+    }
+  ],
+  "adaptation_ids": "data/human_review/adaptation_ids.txt",
+  "redistribution_note": "The bundled fixture contains abridged material from the CC0 BillSum US test split and synthetic canaries only."
+}
