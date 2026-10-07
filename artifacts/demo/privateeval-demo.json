@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "artifact_status": "provisional_measured_unverified",
+  "run_id": "privateeval-billsum-cpu-v1",
+  "captured_at": "2026-08-08T06:38:01.6420682Z",
+  "video": {
+    "path": "artifacts/demo/privateeval-demo.webm",
+    "format": "webm",
+    "sha256": "caef5452cda836c6122bb39c69b8509633edec25ee1d206012975518d78d8b5c",
+    "bytes": 4227961,
+    "duration_seconds": 67.52,
+    "width": 1280,
+    "height": 720,
+    "capture_engine": "Playwright CLI video recorder"
+  },
+  "result_bundle": {
+    "path": "public/results/result_bundle.json",
+    "sha256": "905ff44753138a1403d03183abe08d16fefa8b3f3ad053b41ac279d20e88ce18"
+  },
+  "storyboard": [
+    "Measured decision overview",
+    "Paired source and model outputs",
+    "Robustness slices and failure ledger",
+    "Synthetic PII canaries and safety boundary",
+    "Blinded human-review workflow",
+    "Protocol and release gates",
+    "Pinned configuration cards",
+    "One-command reproduction"
+  ],
+  "verification": {
+    "browser_console_errors": 0,
+    "browser_console_warnings": 0,
+    "metadata_decode": "passed",
+    "production_build": "passed"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "artifact_status": "provisional_measured_unverified",
+  "run_id": "privateeval-billsum-cpu-v1",
+  "captured_at": "2026-08-08T06:38:01.6420682Z",
+  "evaluation": {
+    "clean_examples": 8,
+    "bootstrap_resamples": 2000,
+    "warmup_runs": 1,
+    "measurement_repetitions": 2,
+    "telemetry_isolation": "fresh_process_per_configuration",
+    "primary_comparison": {
+      "contrast": "flan-t5-small-int8 minus flan-t5-small-fp32",
+      "semantic_difference": -0.341305,
+      "confidence_interval_95": [-0.52752, -0.174528],
+      "paired_effect_size_dz": -1.292379,
+      "n": 8
+    },
+    "measured_efficiency": {
+      "lead-3": { "median_latency_ms": 0.21, "p95_latency_ms": 0.499, "peak_rss_mb": 22.34, "model_size_mb": 0.003 },
+      "flan-t5-small-fp32": { "median_latency_ms": 535.688, "p95_latency_ms": 1361.03, "peak_rss_mb": 653.82, "model_size_mb": 419.083 },
+      "flan-t5-small-int8": { "median_latency_ms": 640.659, "p95_latency_ms": 1381.478, "peak_rss_mb": 818.375, "model_size_mb": 246.023 }
+    },
+    "human_review_packet": {
+      "cards_available": 12,
+      "official_ratings_complete": 0,
+      "packet_checksum": "4decaef5218b55902b3ee1d5b55a99d1cfd9a4aa5a00ad96c94eda36cf38abe0"
+    }
+  },
+  "verification": {
+    "python_tests": { "passed": 17, "failed": 0 },
+    "rendered_app_tests": { "passed": 2, "failed": 0 },
+    "production_build": "passed",
+    "production_dependency_vulnerabilities": 0,
+    "browser_console_errors_or_warnings": 0,
+    "browser_interactions": {
+      "paired_source_selection": "passed",
+      "raw_trace_expansion": "passed",
+      "stress_cards": 3,
+      "privacy_canary_cards": 3,
+      "fixed_review_cards": 12,
+      "required_reason_and_reviewer_id": "passed",
+      "review_advance_and_partial_export_enablement": "passed",
+      "method_status_cards": 4,
+      "pinned_configuration_cards": 3,
+      "one_command_reproduction_panel": "passed"
+    },
+    "browser_video": {
+      "path": "artifacts/demo/privateeval-demo.webm",
+      "metadata_path": "artifacts/demo/privateeval-demo.json",
+      "duration_seconds": 67.52,
+      "width": 1280,
+      "height": 720,
+      "sha256": "caef5452cda836c6122bb39c69b8509633edec25ee1d206012975518d78d8b5c",
+      "console_errors": 0,
+      "console_warnings": 0,
+      "metadata_decode": "passed"
+    },
+    "desktop_viewport": { "width": 1440, "height": 960 },
+    "mobile_layout": { "viewport_width": 375, "document_scroll_width": 375, "horizontal_overflow": false },
+    "single_local_navigation_observation": {
+      "dom_content_loaded_ms": 183.9,
+      "first_meaningful_paint_ms": 1295.5,
+      "js_heap_used_mb": 10.9,
+      "dom_nodes_on_example_view": 640,
+      "note": "Earlier development-server browser observation, not Lighthouse or a production SLO. The final 1280 × 720 production-build walkthrough covered review, release-ledger, model-card, and reproduction states with zero console errors or warnings."
+    }
+  },
+  "screenshots": [
+    "artifacts/screenshots/01-overview-desktop.png",
+    "artifacts/screenshots/02-example-lab-desktop.png",
+    "artifacts/screenshots/03-stress-tests-desktop.png",
+    "artifacts/screenshots/04-privacy-desktop.png",
+    "artifacts/screenshots/05-overview-mobile.png",
+    "artifacts/screenshots/06-blind-review-desktop.png",
+    "artifacts/screenshots/07-method-release-gates-desktop.png"
+  ],
+  "pending_external_evidence": [
+    "12 blinded human pairwise ratings",
+    "independent clean-environment reproduction",
+    "public repository publication and claim review"
+  ]
+}

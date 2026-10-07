@@ -1,0 +1,166 @@
+{
+  "review_protocol": {
+    "sample_size": 12,
+    "ratings_path": "data/human_review/ratings.csv",
+    "rubric_path": "data/human_review/rubric.md"
+  },
+  "packet_checksum": "4decaef5218b55902b3ee1d5b55a99d1cfd9a4aa5a00ad96c94eda36cf38abe0",
+  "cards": [
+    {
+      "card_id": "review-001",
+      "example_id": "billsum-test-0005",
+      "title": "Prescription Drug Monitoring Act of 2016",
+      "topic": "healthcare",
+      "source": "The Act may be cited as the Prescription Drug Monitoring Act of 2016. A covered state is one receiving federal prescription drug monitoring program funding. Beginning two years after enactment, each covered state must require prescribing practitioners, or authorized designees, to consult the state's prescription drug monitoring program before starting treatment with a controlled-substance prescription and at defined intervals afterward. Dispensers must report covered prescription information within the required time. The Department of Justice or Department of Health and Human Services may withhold grant funding from a state that fails to comply. A state must also share its monitoring-program data with other states through a data-sharing hub established by the Department of Justice, subject to privacy and security requirements.",
+      "output_a": "State the underlying information. Do not invent facts or repeat contact details. The Act may be cited as the Prescription Drug Monitoring Act of 2016",
+      "output_b": "Identify the requirements for a state to provide a prescription drug monitoring program. Identify the requirements for a state to provide a prescription drug monitoring program.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-002",
+      "example_id": "billsum-test-0006",
+      "title": "Strategic Gasoline and Fuel Reserve Act of 2005",
+      "topic": "energy",
+      "source": "The Act may be cited as the Strategic Gasoline and Fuel Reserve Act of 2005. It directs the Secretary of Energy to establish, maintain, and operate a reserve separate from the Strategic Petroleum Reserve. The reserve may contain no more than 40,000,000 barrels of regular unleaded gasoline and 7,500,000 barrels of jet fuel. Within one year, the Secretary must choose at least three and no more than five regionally strategic sites; the sites must be operational within two years. The Secretary of Homeland Security must concur in physical and operational security. Fuel may be released only when the President finds a severe supply disruption or when a governor requests a release with specified findings. The bill establishes a revolving Strategic Gasoline and Fuel Reserve Fund in the Treasury.",
+      "output_a": "The Act establishes a revolving Strategic Gasoline and Fuel Reserve Fund in the Treasury.",
+      "output_b": "State the main action and material limitations. Do not invent facts or repeat contact details. The Act may refer to the following public document in 45 to 90 words.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-003",
+      "example_id": "billsum-test-0003",
+      "title": "Small Business Tax Modernization Act of 2004",
+      "topic": "taxation",
+      "source": "The Act may be cited as the Small Business Tax Modernization Act of 2004. It amends the Internal Revenue Code so that no new S corporation election may be made for a taxable year beginning after December 31, 2004. Existing S corporation elections cease to be effective for taxable years beginning after December 31, 2014 and are then treated as partnership elections. Certain privately held domestic corporations may elect to be taxed as partnerships instead of using subchapter S. The bill sets rules for former S corporations that elect partnership status, including treatment of assets, liabilities, shareholders, and transition items. It also excludes partnership income attributable to capital from net earnings from self-employment, subject to the statutory rules.",
+      "output_a": "Act of 2000 amends Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code of 1986 to amend the Internal Revenue Code",
+      "output_b": "Expenses include a taxable year beginning December 31, 2004. Expenses include a taxable year beginning December 31, 2004. Expenses include a taxable year beginning December 31, 2004. Expenses include a taxable year beginning December 31, 2004. Expenses include a taxable year beginning December",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-004",
+      "example_id": "billsum-test-0004",
+      "title": "Fair Access to Investment Research Act of 2016",
+      "topic": "finance",
+      "source": "The Act may be cited as the Fair Access to Investment Research Act of 2016. Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. The report is treated as satisfying specified federal securities and self-regulatory organization conditions. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously offered fund report initiates or resumes coverage, and it must address appropriate disclosure and content standards for investor protection and capital formation.",
+      "output_a": "A report is treated as a form of investment, and a form of investment.",
+      "output_b": "Ensure that the Securities and Exchange Commission is enacting the Fair Access to Investment Research Act.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-005",
+      "example_id": "billsum-test-0002",
+      "title": "Merchant Marine of World War II Congressional Gold Medal Act",
+      "topic": "veterans",
+      "source": "The Act may be cited as the Merchant Marine of World War II Congressional Gold Medal Act. Congress finds that the United States Merchant Marine linked domestic production with fighting forces overseas by transporting equipment, fuel, food, commodities, raw materials, military personnel, and civilians. Merchant mariners operated despite exposure to enemy aircraft, submarines, and mines and suffered a higher per-capita casualty rate than any military branch during the war. The Speaker of the House and the President pro tempore of the Senate shall arrange for the award, on behalf of Congress, of a single gold medal to the United States Merchant Marine of World War II in recognition of its dedicated and vital service. After the award, the medal shall be given to the American Merchant Marine Museum for display and research.",
+      "output_a": "a remark on the following public document in 45 to 90 words. State the main action and material limitations.",
+      "output_b": "The United States Merchant Marine of World War II has awarded a single gold medal to the United States Merchant Marine of World War II.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-006",
+      "example_id": "billsum-test-0000",
+      "title": "Water Resources Development Act technical corrections",
+      "topic": "environment",
+      "source": "SECTION 1. ENVIRONMENTAL INFRASTRUCTURE. Jackson County, Mississippi. Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. Manchester, New Hampshire. The authorization is increased from $10,000,000 to $20,000,000. Atlanta, Georgia. Section 219 is amended by striking a $25,000,000 limitation. Paterson, Passaic County, and Passaic Valley, New Jersey. Section 219 is amended by striking a $20,000,000 limitation. Elizabeth and North Hudson, New Jersey. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named. SECTION 2. UPPER MISSISSIPPI RIVER ENVIRONMENTAL MANAGEMENT PROGRAM. A reference is corrected from paragraph (1)(A)(i) to paragraph (1)(B). SECTION 3. DELAWARE RIVER, PENNSYLVANIA AND DELAWARE. The Secretary of the Army may carry out navigation project modifications if technically sound, environmentally acceptable, and economically justified.",
+      "output_a": "Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000.",
+      "output_b": "Observe the following public document in 45 to 90 words. State the main action and material limitations.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-007",
+      "example_id": "billsum-test-0001",
+      "title": "Federal Forage Fee Act of 1993",
+      "topic": "agriculture",
+      "source": "The Act may be cited as the Federal Forage Fee Act of 1993. Congress finds that public lands should continue producing water and soil conservation benefits, livestock and wildlife forage, recreation, and other multiple uses. It states that cooperative agreements and flexible management can stabilize and improve rangelands, and that grazing fees should be reasonable, equitable, and represent the fair value of forage. It also recognizes that mixed private and public ownership in the West creates interdependence for forage, water, habitat, and rural jobs. Unless contrary to the statute, grazing operations on federal lands are subject to applicable federal, state, and local environmental and land-use requirements, including the Clean Air Act, Endangered Species Act, and other listed laws. The Act establishes a formula for forage fees on lands administered by the Departments of Agriculture and the Interior.",
+      "output_a": "Forage fees on federal lands are subject to applicable federal, state, and local environmental and land-use requirements.",
+      "output_b": "Species Act, FERC, and other FERC regulations. Species Act, FERC, and other FERC regulations.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-008",
+      "example_id": "billsum-test-0007",
+      "title": "Public Safety Officer Benefits Enhancement Act",
+      "topic": "public_safety",
+      "source": "The Act may be cited as the Special Agent Scott K. Carey Public Safety Officer Benefits Enhancement Act. It extends educational assistance to public safety officers who become permanently and totally disabled as a direct result of a catastrophic line-of-duty injury, as well as to their eligible spouses and children. It allows retroactive eligibility when the officer died in the line of duty or became permanently and totally disabled on or after January 1, 1978. The Secretary of Education may award scholarships to disabled officers and eligible family members and may enter agreements with educational institutions. The Act also establishes pension payments for certain survivors of deceased public safety officers and changes federal personnel law so qualifying widows or widowers of federal employees killed on the job may continue receiving monthly compensation under specified conditions.",
+      "output_a": "",
+      "output_b": "The Act establishes a retirement fund for disabled public safety officers who become permanently and totally disabled.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-009",
+      "example_id": "billsum-test-0000",
+      "title": "Water Resources Development Act technical corrections",
+      "topic": "environment",
+      "source": "SECTION 1. ENVIRONMENTAL INFRASTRUCTURE. Jackson County, Mississippi. Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. Manchester, New Hampshire. The authorization is increased from $10,000,000 to $20,000,000. Atlanta, Georgia. Section 219 is amended by striking a $25,000,000 limitation. Paterson, Passaic County, and Passaic Valley, New Jersey. Section 219 is amended by striking a $20,000,000 limitation. Elizabeth and North Hudson, New Jersey. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named. SECTION 2. UPPER MISSISSIPPI RIVER ENVIRONMENTAL MANAGEMENT PROGRAM. A reference is corrected from paragraph (1)(A)(i) to paragraph (1)(B). SECTION 3. DELAWARE RIVER, PENNSYLVANIA AND DELAWARE. The Secretary of the Army may carry out navigation project modifications if technically sound, environmentally acceptable, and economically justified.",
+      "output_a": "Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000.",
+      "output_b": "Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. The authorization is increased from $10,000,000 to $20,000,000. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-010",
+      "example_id": "billsum-test-0004",
+      "title": "Fair Access to Investment Research Act of 2016",
+      "topic": "finance",
+      "source": "The Act may be cited as the Fair Access to Investment Research Act of 2016. Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. The report is treated as satisfying specified federal securities and self-regulatory organization conditions. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously offered fund report initiates or resumes coverage, and it must address appropriate disclosure and content standards for investor protection and capital formation.",
+      "output_a": "Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously.",
+      "output_b": "Ensure that the Securities and Exchange Commission is enacting the Fair Access to Investment Research Act.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-011",
+      "example_id": "billsum-test-0000",
+      "title": "Water Resources Development Act technical corrections",
+      "topic": "environment",
+      "source": "SECTION 1. ENVIRONMENTAL INFRASTRUCTURE. Jackson County, Mississippi. Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. Manchester, New Hampshire. The authorization is increased from $10,000,000 to $20,000,000. Atlanta, Georgia. Section 219 is amended by striking a $25,000,000 limitation. Paterson, Passaic County, and Passaic Valley, New Jersey. Section 219 is amended by striking a $20,000,000 limitation. Elizabeth and North Hudson, New Jersey. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named. SECTION 2. UPPER MISSISSIPPI RIVER ENVIRONMENTAL MANAGEMENT PROGRAM. A reference is corrected from paragraph (1)(A)(i) to paragraph (1)(B). SECTION 3. DELAWARE RIVER, PENNSYLVANIA AND DELAWARE. The Secretary of the Army may carry out navigation project modifications if technically sound, environmentally acceptable, and economically justified.",
+      "output_a": "Section 219 of the Water Resources Development Act of 1992 is amended to provide an alternative water supply and a project for the elimination or control of combined sewer overflows for Jackson County, Mississippi, and to increase the authorized amount from $10,000,000 to $20,000,000. The authorization is increased from $10,000,000 to $20,000,000. One authorization is reduced from $20,000,000 to $10,000,000 and another is increased from $10,000,000 to $20,000,000, with North Hudson Sewerage Authority named.",
+      "output_b": "Observe the following public document in 45 to 90 words. State the main action and material limitations.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "card_id": "review-012",
+      "example_id": "billsum-test-0004",
+      "title": "Fair Access to Investment Research Act of 2016",
+      "topic": "finance",
+      "source": "The Act may be cited as the Fair Access to Investment Research Act of 2016. Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. The report is treated as satisfying specified federal securities and self-regulatory organization conditions. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously offered fund report initiates or resumes coverage, and it must address appropriate disclosure and content standards for investor protection and capital formation.",
+      "output_a": "Within 45 days of enactment, the Securities and Exchange Commission shall propose, and within 180 days shall adopt, revisions to its rules creating a safe harbor for covered investment fund research reports published or distributed by brokers or dealers. A qualifying report is not treated as an offer for sale or an offer to sell a security covered by an effective registration statement, even when the broker or dealer participates in the offering. In implementing the safe harbor, the SEC may not impose certain conditions based on whether a continuously.",
+      "output_b": "A report is treated as a form of investment, and a form of investment.",
+      "blind_ids": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}
