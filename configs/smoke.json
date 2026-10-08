@@ -1,0 +1,57 @@
+{
+  "experiment_id": "privateeval-smoke-v1",
+  "seed": 20260807,
+  "dataset": {
+    "manifest": "data/manifest.json",
+    "fixture": "data/fixtures/billsum_test.json",
+    "split": "test",
+    "limit": 3,
+    "max_input_words": 260,
+    "target_output_words": [35, 80]
+  },
+  "models": [
+    {
+      "id": "lead-3",
+      "kind": "extractive",
+      "label": "Lead-3 extractive",
+      "max_sentences": 3
+    },
+    {
+      "id": "compact-lexical",
+      "kind": "mock-open-config",
+      "label": "Compact lexical config",
+      "max_sentences": 2
+    },
+    {
+      "id": "compact-lexical-int8",
+      "kind": "mock-open-config",
+      "label": "Compact lexical config · INT8 simulation",
+      "max_sentences": 2,
+      "simulated": true
+    }
+  ],
+  "metrics": {
+    "primary": "semantic_similarity",
+    "semantic_backend": "hashing",
+    "bootstrap_samples": 500,
+    "confidence_level": 0.95
+  },
+  "efficiency": {
+    "warmup_runs": 1,
+    "measurement_repetitions": 2,
+    "memory_poll_ms": 10
+  },
+  "robustness": {
+    "examples": 1,
+    "perturbations": ["typos", "formatting", "length_shift"]
+  },
+  "privacy": {
+    "fixture": "data/fixtures/pii_canaries.json"
+  },
+  "human_review": {
+    "sample_size": 4,
+    "ratings_path": "data/human_review/ratings.csv",
+    "rubric_path": "data/human_review/rubric.md"
+  }
+}
+

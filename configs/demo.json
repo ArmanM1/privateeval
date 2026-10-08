@@ -1,0 +1,63 @@
+{
+  "experiment_id": "privateeval-billsum-cpu-v1",
+  "seed": 20260807,
+  "dataset": {
+    "manifest": "data/manifest.json",
+    "fixture": "data/fixtures/billsum_test.json",
+    "split": "test",
+    "limit": 8,
+    "max_input_words": 360,
+    "target_output_words": [45, 90]
+  },
+  "models": [
+    {
+      "id": "lead-3",
+      "kind": "extractive",
+      "label": "Lead-3 extractive",
+      "max_sentences": 3
+    },
+    {
+      "id": "flan-t5-small-fp32",
+      "kind": "transformers",
+      "label": "FLAN-T5 small · FP32",
+      "revision": "0fc9ddf",
+      "model_name": "google/flan-t5-small",
+      "quantization": "none",
+      "max_new_tokens": 72
+    },
+    {
+      "id": "flan-t5-small-int8",
+      "kind": "transformers",
+      "label": "FLAN-T5 small · dynamic INT8",
+      "revision": "0fc9ddf",
+      "model_name": "google/flan-t5-small",
+      "quantization": "dynamic-int8",
+      "max_new_tokens": 72
+    }
+  ],
+  "metrics": {
+    "primary": "semantic_similarity",
+    "semantic_backend": "minilm",
+    "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "bootstrap_samples": 2000,
+    "confidence_level": 0.95
+  },
+  "efficiency": {
+    "warmup_runs": 1,
+    "measurement_repetitions": 2,
+    "memory_poll_ms": 10
+  },
+  "robustness": {
+    "examples": 2,
+    "perturbations": ["typos", "formatting", "length_shift"]
+  },
+  "privacy": {
+    "fixture": "data/fixtures/pii_canaries.json"
+  },
+  "human_review": {
+    "sample_size": 12,
+    "ratings_path": "data/human_review/ratings.csv",
+    "rubric_path": "data/human_review/rubric.md"
+  }
+}
+
